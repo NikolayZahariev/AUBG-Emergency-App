@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.echo.emergencyapp.Scapto_2_Hall_Director"
+    android:background="#cf140d"
+    android:padding="16dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#f2e5e5"
+        android:padding="16dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@mipmap/ic_scapto_two_help"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: Ilko Drenkov"
+        android:id="@+id/txt_Scapto2_Name"
+        android:textSize="25sp" android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="#0f0808" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scapto_director_responsibilities"
+        android:id="@+id/txt_Scapto2_Respons"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#0f0808"
+        android:maxWidth="400dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Office Location: ABF Student Center \nRoom Number: 6204"
+        android:id="@+id/txt_Scapto2_Office"
+        android:textSize="20sp" android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="15dp"
+        android:textAlignment="center"
+        android:textColor="#0f0808" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        android:textSize="30sp"
+        android:id="@+id/btn_Scapto2_Call"
+        android:background="@drawable/button_shape_others"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+</LinearLayout>
+</ScrollView>

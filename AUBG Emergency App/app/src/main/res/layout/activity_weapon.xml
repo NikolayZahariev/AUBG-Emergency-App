@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.echo.emergencyapp.Violance"
+    android:background="#cf140d"
+    android:padding="16dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#f2e5e5"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/AUBG_Contacts"
+            android:id="@+id/txt_Weapon_Info"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:textColor="#0b0606" />
+
+        <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:alignmentMode="alignBounds"
+            android:columnCount="2"
+            android:rowCount="6"
+            android:paddingBottom="20dp"
+            android:paddingTop="15dp"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/img_Weapon_Security"
+                android:src="@mipmap/ic_security"
+                android:minHeight="100dp"
+                android:minWidth="100dp"
+                android:clickable="true"
+                android:layout_row="0" android:layout_column="0" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ilko Vangelov"
+                android:id="@+id/txt_Weapon_Security"
+                android:layout_row="1" android:layout_column="0"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0b0606"
+                android:textSize="15dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Security Manager"
+                android:layout_row="2" android:layout_column="0"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"
+                android:textColor="#0b0606"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/img_Weapon_Scapto1"
+                android:src="@mipmap/ic_scapto_one_help"
+                android:minHeight="100dp"
+                android:minWidth="100dp"
+                android:clickable="true"
+                android:layout_row="0" android:layout_column="1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Xhensila Rekaj"
+                android:id="@+id/txt_Weapon_Scapto1"
+                android:layout_row="1" android:layout_column="1"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0b0606"
+                android:textSize="15dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Skapto 1 Director"
+                android:layout_row="2" android:layout_column="1"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0b0606"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/img_Weapon_Scapto2"
+                android:src="@mipmap/ic_scapto_two_help"
+                android:minHeight="100dp"
+                android:minWidth="100dp"
+                android:clickable="true"
+                android:layout_row="3" android:layout_column="0"
+                android:layout_gravity="center_horizontal" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ilko Drenkov"
+                android:id="@+id/txt_Weapon_Scapto2"
+                android:layout_row="4" android:layout_column="0"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0b0606"
+                android:textSize="15dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Skapto 2 Director"
+                android:layout_row="5" android:layout_column="0"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0b0606"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/img_Weapon_Scapto3"
+                android:src="@mipmap/ic_scapto_three_help"
+                android:minWidth="100dp"
+                android:minHeight="100dp"
+                android:clickable="true"
+                android:layout_row="3" android:layout_column="1"
+                android:layout_gravity="center_horizontal" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Iliyan Stamatov"
+                android:id="@+id/txt_Weapon_Scapto3"
+                android:layout_row="4" android:layout_column="1"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0b0606"
+                android:textSize="15dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Skapto 3 Director"
+                android:layout_row="5" android:layout_column="1"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#0b0606"
+                android:textSize="15dp" />
+
+        </GridLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/how_i_know_weapon"
+            android:textSize="17dp"
+            android:id="@+id/txt_Weapon_How_to_Know"
+            android:background="#9ec9c5"
+            android:elevation="@dimen/abc_action_bar_content_inset_material"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:paddingRight="10dp"
+            android:editable="false"
+            android:textColor="#080303" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/what_to_do_weapon"
+            android:textSize="17dp"
+            android:id="@+id/txt_Weapon_What_to_do"
+            android:background="#9ec9c5"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:paddingRight="10dp"
+            android:editable="false"
+            android:textColor="#080303"
+            android:paddingBottom="13dp" />
+
+    </LinearLayout>
+
+</ScrollView>

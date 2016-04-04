@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Emergency App</string>
+    <string name="intro_message">Press and hold \'EMERGENCY\' button to send for help or click the \'Get Help\' button for more options.</string>
+    <string name="title_activity_emergency_map">Map</string>
+    <string name="what_to_do_violance">
+        What can I do:                                              \n
+            * Stay calm by taking deep, slow breaths                \n
+            * Maintain eye contact                                  \n
+            * Be courteous and patient                              \n
+            * Maintain a calm, quiet tone of voice                  \n
+            * Signal a coworker or supervisor that you need help    \n
+            * Have someone call security personnel                  \n
+            * Avoid statements and/or behaviors that could escalate \n
+        the individual\'s threatening statements/behavior           \n
+    </string>
+    <string name="how_i_know_violance">
+        How do I know:                                              \n
+            * Someone is being followed                             \n
+            * You see a person with a weapon                        \n
+            * You see/hear people having a heated argument          \n
+            * You see a person who is very twitchy or on-edge       \n
+    </string>
+    <string name="security_responsibilites">
+        Responsibilityes: Maintains a safe and secure environment for students
+        by establishing and enforcing security policies and procedures;
+        supervising the security guard force.</string>
+    <string name="scapto_director_responsibilities">
+        Responsibilities: Deals with crisis management situations in the hall.
+        Assists students in fire and/or safety evacuations and provides support
+        and referral to students in crisis.
+    </string>
+    <string name="what_to_do_weapon">
+        What can I do:                                                                  \n
+            * Stay calm                                                                 \n
+            * Signal a coworker or supervisor, in a discreet manner, of what you have seen    \n
+            * Have someone call security personnel                                      \n
+            * Avoid behaviors that could escalate make the individual use the weapon    \n
+            * Do not get too close to the armed individual                              \n
+            * Do not be a hero!
+    </string>
+    <string name="how_i_know_weapon">
+        How do I know:                                                                              \n
+            * Someone is wearing baggy clothes not fit for the season                               \n
+            * The person is constantly touching and adjusting something under their clothes         \n
+            * Their jacket or overcoat sags too much on one side (due to gun weight)                \n
+            * You see a person who is very twitchy or on-edge                                       \n
+            * Distinct lump seen on the clothes                                                     \n
+            * Asymmetrical gait: short arm and leg swing on gun side                                \n
+    </string>
+    <string name="AUBG_Contacts">Appropriate assistance contact for AUBG: </string>
+    <string name="Get_Help_Title">I Can See...</string>
+</resources>
